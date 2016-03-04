@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCB71D141C892D85008E1E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB71D131C892D85008E1E31 /* main.m */; };
+		DCB71D171C892D85008E1E31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB71D161C892D85008E1E31 /* AppDelegate.m */; };
+		DCB71D1A1C892D85008E1E31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB71D191C892D85008E1E31 /* ViewController.m */; };
+		DCB71D1D1C892D85008E1E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB71D1B1C892D85008E1E31 /* Main.storyboard */; };
+		DCB71D201C892D85008E1E31 /* StressMonitoring.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCB71D1E1C892D85008E1E31 /* StressMonitoring.xcdatamodeld */; };
+		DCB71D221C892D85008E1E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB71D211C892D85008E1E31 /* Assets.xcassets */; };
+		DCB71D251C892D85008E1E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB71D231C892D85008E1E31 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCB71D0F1C892D85008E1E31 /* StressMonitoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StressMonitoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB71D131C892D85008E1E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCB71D151C892D85008E1E31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCB71D161C892D85008E1E31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCB71D181C892D85008E1E31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCB71D191C892D85008E1E31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCB71D1C1C892D85008E1E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCB71D1F1C892D85008E1E31 /* StressMonitoring.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StressMonitoring.xcdatamodel; sourceTree = "<group>"; };
+		DCB71D211C892D85008E1E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB71D241C892D85008E1E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCB71D261C892D85008E1E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB71D0C1C892D85008E1E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCB71D061C892D85008E1E31 = {
+			isa = PBXGroup;
+			children = (
+				DCB71D111C892D85008E1E31 /* StressMonitoring */,
+				DCB71D101C892D85008E1E31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB71D101C892D85008E1E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB71D0F1C892D85008E1E31 /* StressMonitoring.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB71D111C892D85008E1E31 /* StressMonitoring */ = {
+			isa = PBXGroup;
+			children = (
+				DCB71D151C892D85008E1E31 /* AppDelegate.h */,
+				DCB71D161C892D85008E1E31 /* AppDelegate.m */,
+				DCB71D181C892D85008E1E31 /* ViewController.h */,
+				DCB71D191C892D85008E1E31 /* ViewController.m */,
+				DCB71D1B1C892D85008E1E31 /* Main.storyboard */,
+				DCB71D211C892D85008E1E31 /* Assets.xcassets */,
+				DCB71D231C892D85008E1E31 /* LaunchScreen.storyboard */,
+				DCB71D261C892D85008E1E31 /* Info.plist */,
+				DCB71D1E1C892D85008E1E31 /* StressMonitoring.xcdatamodeld */,
+				DCB71D121C892D85008E1E31 /* Supporting Files */,
+			);
+			path = StressMonitoring;
+			sourceTree = "<group>";
+		};
+		DCB71D121C892D85008E1E31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCB71D131C892D85008E1E31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB71D0E1C892D85008E1E31 /* StressMonitoring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB71D291C892D85008E1E31 /* Build configuration list for PBXNativeTarget "StressMonitoring" */;
+			buildPhases = (
+				DCB71D0B1C892D85008E1E31 /* Sources */,
+				DCB71D0C1C892D85008E1E31 /* Frameworks */,
+				DCB71D0D1C892D85008E1E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StressMonitoring;
+			productName = StressMonitoring;
+			productReference = DCB71D0F1C892D85008E1E31 /* StressMonitoring.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB71D071C892D85008E1E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = UHD;
+				TargetAttributes = {
+					DCB71D0E1C892D85008E1E31 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 26E7J52D2M;
+					};
+				};
+			};
+			buildConfigurationList = DCB71D0A1C892D85008E1E31 /* Build configuration list for PBXProject "StressMonitoring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCB71D061C892D85008E1E31;
+			productRefGroup = DCB71D101C892D85008E1E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB71D0E1C892D85008E1E31 /* StressMonitoring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB71D0D1C892D85008E1E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB71D251C892D85008E1E31 /* LaunchScreen.storyboard in Resources */,
+				DCB71D221C892D85008E1E31 /* Assets.xcassets in Resources */,
+				DCB71D1D1C892D85008E1E31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB71D0B1C892D85008E1E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB71D1A1C892D85008E1E31 /* ViewController.m in Sources */,
+				DCB71D171C892D85008E1E31 /* AppDelegate.m in Sources */,
+				DCB71D141C892D85008E1E31 /* main.m in Sources */,
+				DCB71D201C892D85008E1E31 /* StressMonitoring.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCB71D1B1C892D85008E1E31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB71D1C1C892D85008E1E31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCB71D231C892D85008E1E31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB71D241C892D85008E1E31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB71D271C892D85008E1E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCB71D281C892D85008E1E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB71D2A1C892D85008E1E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StressMonitoring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uhd.StressMonitoring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCB71D2B1C892D85008E1E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StressMonitoring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uhd.StressMonitoring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB71D0A1C892D85008E1E31 /* Build configuration list for PBXProject "StressMonitoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB71D271C892D85008E1E31 /* Debug */,
+				DCB71D281C892D85008E1E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB71D291C892D85008E1E31 /* Build configuration list for PBXNativeTarget "StressMonitoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB71D2A1C892D85008E1E31 /* Debug */,
+				DCB71D2B1C892D85008E1E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCB71D1E1C892D85008E1E31 /* StressMonitoring.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCB71D1F1C892D85008E1E31 /* StressMonitoring.xcdatamodel */,
+			);
+			currentVersion = DCB71D1F1C892D85008E1E31 /* StressMonitoring.xcdatamodel */;
+			path = StressMonitoring.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCB71D071C892D85008E1E31 /* Project object */;
+}
