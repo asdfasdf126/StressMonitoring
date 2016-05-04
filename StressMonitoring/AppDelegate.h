@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import <Empalink-ios-0.7-full/EmpaticaAPI-0.7.h>
+
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -20,6 +22,8 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
+- (void) applicationDidEnterBackground:(UIApplication *)application;
+- (void) applicationDidBecomeActive:(UIApplication *)application;
 
 @end
 

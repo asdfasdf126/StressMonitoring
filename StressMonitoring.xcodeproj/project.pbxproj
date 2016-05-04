@@ -7,27 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC83F2D21CB2E49100B8DB04 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC83F2D11CB2E49100B8DB04 /* SettingsViewController.m */; };
 		DCB71D141C892D85008E1E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB71D131C892D85008E1E31 /* main.m */; };
 		DCB71D171C892D85008E1E31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB71D161C892D85008E1E31 /* AppDelegate.m */; };
-		DCB71D1A1C892D85008E1E31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB71D191C892D85008E1E31 /* ViewController.m */; };
-		DCB71D1D1C892D85008E1E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB71D1B1C892D85008E1E31 /* Main.storyboard */; };
 		DCB71D201C892D85008E1E31 /* StressMonitoring.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCB71D1E1C892D85008E1E31 /* StressMonitoring.xcdatamodeld */; };
-		DCB71D221C892D85008E1E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB71D211C892D85008E1E31 /* Assets.xcassets */; };
-		DCB71D251C892D85008E1E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB71D231C892D85008E1E31 /* LaunchScreen.storyboard */; };
+		DCB71D2E1C892DB1008E1E31 /* EmpaLink-ios-0.7-full.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB71D2D1C892DB1008E1E31 /* EmpaLink-ios-0.7-full.framework */; };
+		DCB71D321C892E4F008E1E31 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB71D311C892E4F008E1E31 /* HomeViewController.m */; };
+		DCB71D351C892E80008E1E31 /* BlueToothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB71D341C892E80008E1E31 /* BlueToothViewController.m */; };
+		DCB71D391C892F06008E1E31 /* NearbyDevicesView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB71D381C892F06008E1E31 /* NearbyDevicesView.m */; };
+		DCB71D421C91D98D008E1E31 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB71D411C91D98D008E1E31 /* GraphView.m */; };
+		DCB71D4F1C920CBE008E1E31 /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DCB71D4E1C920CBE008E1E31 /* SimpleVertex.glsl */; };
+		DCB71D511C920D2A008E1E31 /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DCB71D501C920D2A008E1E31 /* SimpleFragment.glsl */; };
+		DCC2D1801CC0718600CD45EE /* DynamicGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC2D17F1CC0718600CD45EE /* DynamicGraphView.m */; };
+		DCC2D1AF1CC46EFA00CD45EE /* Sample1|ACC.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = DCC2D1A71CC46EFA00CD45EE /* Sample1|ACC.csv */; };
+		DCC2D1B01CC46EFA00CD45EE /* Sample1|BVP.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = DCC2D1A81CC46EFA00CD45EE /* Sample1|BVP.csv */; };
+		DCC2D1B11CC46EFA00CD45EE /* Sample1|EDA.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = DCC2D1A91CC46EFA00CD45EE /* Sample1|EDA.csv */; };
+		DCC2D1B21CC46EFA00CD45EE /* Sample1|HR.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = DCC2D1AA1CC46EFA00CD45EE /* Sample1|HR.csv */; };
+		DCC2D1B31CC46EFA00CD45EE /* Sample1|IBI.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = DCC2D1AB1CC46EFA00CD45EE /* Sample1|IBI.csv */; };
+		DCC2D1B41CC46EFA00CD45EE /* info.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = DCC2D1AC1CC46EFA00CD45EE /* info.txt */; };
+		DCC2D1BD1CC7EB9B00CD45EE /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCC2D1891CC079EA00CD45EE /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCC2D1C01CC7F4B900CD45EE /* LoadGraphTable.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC2D1BF1CC7F4B900CD45EE /* LoadGraphTable.m */; };
+		DCC2D1C91CCACB5800CD45EE /* DataStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC2D1C81CCACB5800CD45EE /* DataStatistics.m */; };
+		DCC2D1CC1CCAD52C00CD45EE /* DataView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC2D1CB1CCAD52C00CD45EE /* DataView.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DCC2D1881CC079EA00CD45EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC2D1811CC079E900CD45EE /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		DCC2D18A1CC079EA00CD45EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC2D1811CC079E900CD45EE /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		DCC2D18C1CC079EA00CD45EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC2D1811CC079E900CD45EE /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65B3F5BF1C7370BE000983D0;
+			remoteInfo = "Charts-OSX";
+		};
+		DCC2D18E1CC079EA00CD45EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC2D1811CC079E900CD45EE /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCB71DCA1CAB5132008E1E31 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DCC2D1BD1CC7EB9B00CD45EE /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC2D1A61CC46EE200CD45EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				DCC2D1AF1CC46EFA00CD45EE /* Sample1|ACC.csv in CopyFiles */,
+				DCC2D1B01CC46EFA00CD45EE /* Sample1|BVP.csv in CopyFiles */,
+				DCC2D1B11CC46EFA00CD45EE /* Sample1|EDA.csv in CopyFiles */,
+				DCC2D1B21CC46EFA00CD45EE /* Sample1|HR.csv in CopyFiles */,
+				DCC2D1B31CC46EFA00CD45EE /* Sample1|IBI.csv in CopyFiles */,
+				DCC2D1B41CC46EFA00CD45EE /* info.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DC83F2D01CB2E49100B8DB04 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		DC83F2D11CB2E49100B8DB04 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		DCB71D0F1C892D85008E1E31 /* StressMonitoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StressMonitoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB71D131C892D85008E1E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCB71D151C892D85008E1E31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCB71D161C892D85008E1E31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DCB71D181C892D85008E1E31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DCB71D191C892D85008E1E31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DCB71D1C1C892D85008E1E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCB71D1F1C892D85008E1E31 /* StressMonitoring.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StressMonitoring.xcdatamodel; sourceTree = "<group>"; };
-		DCB71D211C892D85008E1E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DCB71D241C892D85008E1E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCB71D261C892D85008E1E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB71D2D1C892DB1008E1E31 /* EmpaLink-ios-0.7-full.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "EmpaLink-ios-0.7-full.framework"; sourceTree = "<group>"; };
+		DCB71D301C892E4F008E1E31 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DCB71D311C892E4F008E1E31 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DCB71D331C892E80008E1E31 /* BlueToothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothViewController.h; sourceTree = "<group>"; };
+		DCB71D341C892E80008E1E31 /* BlueToothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothViewController.m; sourceTree = "<group>"; };
+		DCB71D371C892F06008E1E31 /* NearbyDevicesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyDevicesView.h; sourceTree = "<group>"; };
+		DCB71D381C892F06008E1E31 /* NearbyDevicesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyDevicesView.m; sourceTree = "<group>"; };
+		DCB71D401C91D98D008E1E31 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		DCB71D411C91D98D008E1E31 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		DCB71D431C91DA53008E1E31 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DCB71D451C91DC0D008E1E31 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DCB71D4E1C920CBE008E1E31 /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SimpleVertex.glsl; path = ../SimpleVertex.glsl; sourceTree = "<group>"; };
+		DCB71D501C920D2A008E1E31 /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SimpleFragment.glsl; path = ../SimpleFragment.glsl; sourceTree = "<group>"; };
+		DCB71DB51C927426008E1E31 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DCC2D17E1CC0718600CD45EE /* DynamicGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicGraphView.h; sourceTree = "<group>"; };
+		DCC2D17F1CC0718600CD45EE /* DynamicGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicGraphView.m; sourceTree = "<group>"; };
+		DCC2D1811CC079E900CD45EE /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../Downloads/Charts-master 2/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
+		DCC2D1A71CC46EFA00CD45EE /* Sample1|ACC.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Sample1|ACC.csv"; sourceTree = "<group>"; };
+		DCC2D1A81CC46EFA00CD45EE /* Sample1|BVP.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Sample1|BVP.csv"; sourceTree = "<group>"; };
+		DCC2D1A91CC46EFA00CD45EE /* Sample1|EDA.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Sample1|EDA.csv"; sourceTree = "<group>"; };
+		DCC2D1AA1CC46EFA00CD45EE /* Sample1|HR.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Sample1|HR.csv"; sourceTree = "<group>"; };
+		DCC2D1AB1CC46EFA00CD45EE /* Sample1|IBI.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Sample1|IBI.csv"; sourceTree = "<group>"; };
+		DCC2D1AC1CC46EFA00CD45EE /* info.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = info.txt; sourceTree = "<group>"; };
+		DCC2D1BE1CC7F4B900CD45EE /* LoadGraphTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadGraphTable.h; sourceTree = "<group>"; };
+		DCC2D1BF1CC7F4B900CD45EE /* LoadGraphTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadGraphTable.m; sourceTree = "<group>"; };
+		DCC2D1C71CCACB5800CD45EE /* DataStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStatistics.h; sourceTree = "<group>"; };
+		DCC2D1C81CCACB5800CD45EE /* DataStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStatistics.m; sourceTree = "<group>"; };
+		DCC2D1CA1CCAD52C00CD45EE /* DataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataView.h; sourceTree = "<group>"; };
+		DCC2D1CB1CCAD52C00CD45EE /* DataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB71D2E1C892DB1008E1E31 /* EmpaLink-ios-0.7-full.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +146,7 @@
 		DCB71D061C892D85008E1E31 = {
 			isa = PBXGroup;
 			children = (
+				DCC2D1B71CC46F0400CD45EE /* Sample Data */,
 				DCB71D111C892D85008E1E31 /* StressMonitoring */,
 				DCB71D101C892D85008E1E31 /* Products */,
 			);
@@ -60,13 +163,11 @@
 		DCB71D111C892D85008E1E31 /* StressMonitoring */ = {
 			isa = PBXGroup;
 			children = (
+				DCB71D2C1C892D97008E1E31 /* FrameWorks */,
+				DCB71D361C892EE7008E1E31 /* Views */,
+				DCB71D2F1C892E37008E1E31 /* ViewControllers */,
 				DCB71D151C892D85008E1E31 /* AppDelegate.h */,
 				DCB71D161C892D85008E1E31 /* AppDelegate.m */,
-				DCB71D181C892D85008E1E31 /* ViewController.h */,
-				DCB71D191C892D85008E1E31 /* ViewController.m */,
-				DCB71D1B1C892D85008E1E31 /* Main.storyboard */,
-				DCB71D211C892D85008E1E31 /* Assets.xcassets */,
-				DCB71D231C892D85008E1E31 /* LaunchScreen.storyboard */,
 				DCB71D261C892D85008E1E31 /* Info.plist */,
 				DCB71D1E1C892D85008E1E31 /* StressMonitoring.xcdatamodeld */,
 				DCB71D121C892D85008E1E31 /* Supporting Files */,
@@ -77,9 +178,80 @@
 		DCB71D121C892D85008E1E31 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DCB71D501C920D2A008E1E31 /* SimpleFragment.glsl */,
+				DCB71D4E1C920CBE008E1E31 /* SimpleVertex.glsl */,
 				DCB71D131C892D85008E1E31 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCB71D2C1C892D97008E1E31 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				DCC2D1811CC079E900CD45EE /* Charts.xcodeproj */,
+				DCB71DB51C927426008E1E31 /* CoreText.framework */,
+				DCB71D451C91DC0D008E1E31 /* QuartzCore.framework */,
+				DCB71D431C91DA53008E1E31 /* OpenGLES.framework */,
+				DCB71D2D1C892DB1008E1E31 /* EmpaLink-ios-0.7-full.framework */,
+			);
+			name = FrameWorks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DCB71D2F1C892E37008E1E31 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCB71D301C892E4F008E1E31 /* HomeViewController.h */,
+				DCB71D311C892E4F008E1E31 /* HomeViewController.m */,
+				DCB71D331C892E80008E1E31 /* BlueToothViewController.h */,
+				DCB71D341C892E80008E1E31 /* BlueToothViewController.m */,
+				DC83F2D01CB2E49100B8DB04 /* SettingsViewController.h */,
+				DC83F2D11CB2E49100B8DB04 /* SettingsViewController.m */,
+				DCC2D1BE1CC7F4B900CD45EE /* LoadGraphTable.h */,
+				DCC2D1BF1CC7F4B900CD45EE /* LoadGraphTable.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DCB71D361C892EE7008E1E31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCB71D371C892F06008E1E31 /* NearbyDevicesView.h */,
+				DCB71D381C892F06008E1E31 /* NearbyDevicesView.m */,
+				DCB71D401C91D98D008E1E31 /* GraphView.h */,
+				DCB71D411C91D98D008E1E31 /* GraphView.m */,
+				DCC2D17E1CC0718600CD45EE /* DynamicGraphView.h */,
+				DCC2D17F1CC0718600CD45EE /* DynamicGraphView.m */,
+				DCC2D1C71CCACB5800CD45EE /* DataStatistics.h */,
+				DCC2D1C81CCACB5800CD45EE /* DataStatistics.m */,
+				DCC2D1CA1CCAD52C00CD45EE /* DataView.h */,
+				DCC2D1CB1CCAD52C00CD45EE /* DataView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DCC2D1821CC079E900CD45EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC2D1891CC079EA00CD45EE /* Charts.framework */,
+				DCC2D18B1CC079EA00CD45EE /* Charts.framework */,
+				DCC2D18D1CC079EA00CD45EE /* Charts.framework */,
+				DCC2D18F1CC079EA00CD45EE /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC2D1B71CC46F0400CD45EE /* Sample Data */ = {
+			isa = PBXGroup;
+			children = (
+				DCC2D1A71CC46EFA00CD45EE /* Sample1|ACC.csv */,
+				DCC2D1A81CC46EFA00CD45EE /* Sample1|BVP.csv */,
+				DCC2D1A91CC46EFA00CD45EE /* Sample1|EDA.csv */,
+				DCC2D1AA1CC46EFA00CD45EE /* Sample1|HR.csv */,
+				DCC2D1AB1CC46EFA00CD45EE /* Sample1|IBI.csv */,
+				DCC2D1AC1CC46EFA00CD45EE /* info.txt */,
+			);
+			name = "Sample Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +264,8 @@
 				DCB71D0B1C892D85008E1E31 /* Sources */,
 				DCB71D0C1C892D85008E1E31 /* Frameworks */,
 				DCB71D0D1C892D85008E1E31 /* Resources */,
+				DCB71DCA1CAB5132008E1E31 /* Embed Frameworks */,
+				DCC2D1A61CC46EE200CD45EE /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -114,6 +288,11 @@
 					DCB71D0E1C892D85008E1E31 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 26E7J52D2M;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -128,6 +307,12 @@
 			mainGroup = DCB71D061C892D85008E1E31;
 			productRefGroup = DCB71D101C892D85008E1E31 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DCC2D1821CC079E900CD45EE /* Products */;
+					ProjectRef = DCC2D1811CC079E900CD45EE /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DCB71D0E1C892D85008E1E31 /* StressMonitoring */,
@@ -135,14 +320,44 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		DCC2D1891CC079EA00CD45EE /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = DCC2D1881CC079EA00CD45EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DCC2D18B1CC079EA00CD45EE /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = DCC2D18A1CC079EA00CD45EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DCC2D18D1CC079EA00CD45EE /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = DCC2D18C1CC079EA00CD45EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DCC2D18F1CC079EA00CD45EE /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = DCC2D18E1CC079EA00CD45EE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		DCB71D0D1C892D85008E1E31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCB71D251C892D85008E1E31 /* LaunchScreen.storyboard in Resources */,
-				DCB71D221C892D85008E1E31 /* Assets.xcassets in Resources */,
-				DCB71D1D1C892D85008E1E31 /* Main.storyboard in Resources */,
+				DCB71D511C920D2A008E1E31 /* SimpleFragment.glsl in Resources */,
+				DCB71D4F1C920CBE008E1E31 /* SimpleVertex.glsl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,33 +368,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCB71D1A1C892D85008E1E31 /* ViewController.m in Sources */,
+				DCB71D391C892F06008E1E31 /* NearbyDevicesView.m in Sources */,
 				DCB71D171C892D85008E1E31 /* AppDelegate.m in Sources */,
+				DCB71D421C91D98D008E1E31 /* GraphView.m in Sources */,
+				DCC2D1C01CC7F4B900CD45EE /* LoadGraphTable.m in Sources */,
+				DC83F2D21CB2E49100B8DB04 /* SettingsViewController.m in Sources */,
 				DCB71D141C892D85008E1E31 /* main.m in Sources */,
+				DCC2D1CC1CCAD52C00CD45EE /* DataView.m in Sources */,
+				DCB71D351C892E80008E1E31 /* BlueToothViewController.m in Sources */,
+				DCC2D1C91CCACB5800CD45EE /* DataStatistics.m in Sources */,
+				DCB71D321C892E4F008E1E31 /* HomeViewController.m in Sources */,
+				DCC2D1801CC0718600CD45EE /* DynamicGraphView.m in Sources */,
 				DCB71D201C892D85008E1E31 /* StressMonitoring.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DCB71D1B1C892D85008E1E31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCB71D1C1C892D85008E1E31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DCB71D231C892D85008E1E31 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCB71D241C892D85008E1E31 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DCB71D271C892D85008E1E31 /* Debug */ = {
@@ -202,6 +406,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -221,6 +427,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = Stress;
+				PRODUCT_NAME = Stress;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -246,6 +454,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -258,6 +468,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = Stress;
+				PRODUCT_NAME = Stress;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -268,10 +480,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = StressMonitoring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uhd.StressMonitoring;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "StressMonitoring/StressMonitoring-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -279,10 +505,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = StressMonitoring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uhd.StressMonitoring;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "StressMonitoring/StressMonitoring-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -305,6 +544,7 @@
 				DCB71D2B1C892D85008E1E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
